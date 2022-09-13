@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>CheckPoint1</title>
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <header class="main-header">
+        <div>
+            <h1 class="nome"> Saint Patrick's Day </h1>
+            <img src="img/logo.ico" alt="" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li class="home">Home</li>
+                <li class="curiosidades">Curiosidades</li>
+                <li class="contato">Contato</li>
+                <li><button class="mudarTema" onclick="mudarTema()">Mudar Tema</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Banner-->
+    <section class="main-banner">
+        <a href="#" class="botao-banner">Saiba Mais</a>
+    </section>
+
+    <!-- Content -->
+    <main class="main-content">
+        <h2>Curiosidades:</h2>
+        <section class="content-section">
+            <div>
+                <img src="./img/curiosidade1.jpg" alt="imagem data comemorativa dia 17 de março">
+                <h2>O que é St. Patrick’s Day?</h2>
+                <p>É uma festa da cultura da Irlanda que se expandiu para vários países do mundo a partir da imigração
+                    irlandesa. O Saint Patrick’s Day acontece no dia 17 de março, data em que se lembra o aniversário de
+                    morte de São Patrício, o padroeiro do país europeu. Esse é o mais festejado feriado na irlanda. </p>
+            </div>
+            <div>
+                <img src="./img/curiosidade2.jpg" alt="imagem de pessoas bebendo">
+                <h2>Conheça a história do St. Patrick’s Day</h2>
+                <p>Por incrível que pareça, a história do feriado mais famoso da Irlanda começa na Grã-Bretanha. uer
+                    saber como? Vamos à história do St. Patrick’s Day! A vida de São Patrício São Patrício, o símbolo
+                    irlandês, nasceu no século IV, na Inglaterra.
+                </p>
+            </div>
+            <div>
+                <img src="img/curiosidade3.jpg" alt="">
+                <h2>Como o dia é comemorado?</h2>
+                <p>Quando o assunto é comemorar o St. Patrick’s Day, a festa varia conforme o país que a sedia. Na
+                    Irlanda, berço da comemoração, são realizadas paradas de bandas e apresentações de artistas
+                    variados.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Vídeo -->
+    <main class="main-video">
+        <h2>Vídeo:</h2>
+        <div>
+            <iframe width="1903" height="830" src="https://www.youtube.com/embed/IMSrtkKVAcs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <h2>Entre em contato também pelas redes sociais:</h2>
+        <ul>
+            <li>
+                <a href="#" class="fa fa-facebook"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-linkedin"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-google"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-youtube"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-instagram"></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Dark-Mode -->
+    <script>
+        function mudarTema() {
+            document.querySelector('body').classList.toggle('dark-mode')
+        }
+    </script>
+
+</body>
+
+</html>
